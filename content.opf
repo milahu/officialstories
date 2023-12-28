@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+  <metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:language>en</dc:language>
+    <dc:creator opf:file-as="Scheff, Liam" opf:role="aut">Scheff, Liam</dc:creator>
+    <meta name="calibre:timestamp" content="2013-09-15T23:19:26.994578+00:00"/>
+    <dc:title>Official Stories</dc:title>
+    <meta name="cover" content="cover"/>
+    <dc:date>2013-02-14T00:00:00+00:00</dc:date>
+    <dc:contributor opf:role="bkp">calibre (1.2.0) [http://calibre-ebook.com]</dc:contributor>
+    <dc:identifier opf:scheme="MOBI-ASIN">B00BG1JTG8</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">8c8806e3-d87c-4f9f-9213-e68b5ae91811</dc:identifier>
+  </metadata>
+  <manifest>
+    <item href="images/00005.jpeg" id="cover" media-type="image/jpeg"/>
+    <item href="images/00001.jpeg" id="id5" media-type="image/jpeg"/>
+    <item href="images/00002.jpeg" id="id6" media-type="image/jpeg"/>
+    <item href="images/00003.jpeg" id="id3" media-type="image/jpeg"/>
+    <item href="images/00004.jpeg" id="id8" media-type="image/jpeg"/>
+    <item href="page_styles.css" id="page_css" media-type="text/css"/>
+    <item href="stylesheet.css" id="css" media-type="text/css"/>
+    <item href="text/part0000_split_000.html" id="id14" media-type="application/xhtml+xml"/>
+    <item href="text/part0000_split_001.html" id="id13" media-type="application/xhtml+xml"/>
+    <item href="text/part0000_split_002.html" id="id12" media-type="application/xhtml+xml"/>
+    <item href="text/part0000_split_003.html" id="id11" media-type="application/xhtml+xml"/>
+    <item href="titlepage.xhtml" id="titlepage" media-type="application/xhtml+xml"/>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="titlepage"/>
+    <itemref idref="id14"/>
+    <itemref idref="id13"/>
+    <itemref idref="id12"/>
+    <itemref idref="id11"/>
+  </spine>
+  <guide>
+    <reference href="text/part0000_split_000.html#TOC" title="Table of Contents" type="toc"/>
+    <reference href="titlepage.xhtml" title="Cover" type="cover"/>
+    <reference href="text/part0000_split_000.html#PrefaceTheOfficialStory" title="start" type="text"/>
+  </guide>
+</package>
